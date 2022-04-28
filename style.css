@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+
+h1
+{
+    background-color: white;
+    color: navy;
+}
+
+#sketchMe
+{
+    float: right;
+}
+
+p
+{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: fantasy;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: victory;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes victory {
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px red;}
+}
